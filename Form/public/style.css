@@ -1,0 +1,61 @@
+#blue{
+    color: blue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+form{
+    width: 75%;
+    background-color: rgb(95, 95, 196);
+    text-align:left;
+}
+p{
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.hobbies{
+    font-size: 16px;
+
+}
+
+label{
+    padding-left: 22px;
+    width: 180px;
+    display: inline-block;
+    font-size: 17.5px;
+    color: white;
+    font-family: sans-serif;
+}
+textarea{
+    vertical-align: top;
+}
+
+th{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+td{
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.set{
+    width: 180px;
+}
+
+.set2{
+    text-align: center;
+    font-size: 14px;
+}
+
+h1{
+    color: green;
+}
+
+h2{
+    color: darkviolet;
+}

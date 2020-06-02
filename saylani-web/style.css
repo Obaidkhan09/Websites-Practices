@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#top-blue{
+    background-color: #316DC3;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social-links{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+
+}
+
+.social-links img{
+    height: 15px;
+    width: 15px;
+}
+
+.top-text{
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+    align-content: center;
+    position: relative;
+    top: 8px;
+    left: 15px;
+}
+
+.top-buttons{
+    display: flex;
+    margin-right: 100px;
+}
+
+.top-buttons button{
+    background-color: #f5f5f5;
+    padding: 0px 10px 0px 10px;
+    width: auto;
+    height: 28px;
+    font-size: 11px;
+    margin: 2px;
+    color:forestgreen;
+    font-family:'Open Sans', sans-serif;
+    border: 0.7px solid  #006618;
+}
+
+#top-white{
+    background-color: #f7f8fa;
+    height: 70px;
+    display: flex;
+}
+
+.logo{
+    margin-left: 100px;
+}
+.logo img{
+    height: 50px;
+    width: 190px;
+    position: relative;
+    top: 8px;
+    right: 7px;
+
+}
+
+.top-white-buttons{
+    margin-left: 19%;
+    display: flex;
+    padding: 17px;
+}
+
+/* .top-white-buttons button{
+    margin: 1px;
+    border-radius: 30px;
+    border: none;
+    font-style: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 16px;
+    background-color: transparent;
+    transition-property: background;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+    display: flex;
+    
+}
+#top-white button:hover{
+    background-color: #316DC3;
+    color: white;
+    cursor: pointer;
+} */
+.active{
+    background-color: #316DC3 !important;
+    color: white !important;
+}
+
+#container ul{
+  list-style: none;
+}
+#container ul li{
+  background-color: transparent;
+  border-radius: 30px;
+  width: auto;
+  border: none;
+  font-style: 'Open Sans', sans-serif;
+  font-size: 13px;
+  float: left;
+  display: block;
+  font-weight: 500;
+  padding: 8px 16px;
+  transition-property: background font-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  height: 40px;
+}
+
+#container ul li:hover{
+  background-color: #316DC3;
+  color: white;
+  cursor: pointer;
+}
+
+#container ul ul{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: white;
+  margin: 28px auto auto -15px;
+  padding: 0;
+
+}
+#container ul li:hover > ul{
+  display: block;
+}
+ #container ul ul li{
+   float: none;
+   position: relative;
+   color: #666;
+   font-size: 12px;
+   font-weight: 600;
+   border-radius: 0;
+   height: 35px;
+ }
+
+ #container ul ul ul{
+   margin-left: 145px;
+   margin-top: -26px;
+ }
+
+#container ul ul ul li{
+  width: auto;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  border-radius: 0;
+}
+
+i {
+  border: solid black;
+  border-width: 0 0.5px 0.5px 0;
+  display: inline-block;
+  padding: 2.5px;
+  position: relative;
+  left: 5px;
+  bottom: 3px;
+}
+
+.arrow-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.full-btn:hover i{
+  border: solid white;
+  border-width: 0 0.5px 0.5px 0;
+  background-color:transparent;
+}
+.full-btn{
+  float: left;
+  background-color: transparent !important;
+  height: 55px;
+  width: auto;
+  z-index: -1;
+}
+
+.carousel-item img{
+  height: 500px;
+}
+
+.full-btn ul {
+  display: none !important;
+}
+.full-btn:hover ul{
+  display: block !important;
+}
+.full-btn:hover > li{
+  background-color: #316DC3 !important;
+  color: white;
+}
+
+.news{
+  width: 85%;
+  align-content: center;
+  font-style: 'Open Sans', sans-serif;
+}
+.news p{
+  color: white;
+}
+.news a{
+  color: blue !important;
+  cursor: pointer;
+}
+.news span{
+  color: #00FF00 !important;
+}
+.intro {
+  background-color: #F7F8FA;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.intro h2{
+  color: #427900;
+  font-family: Georgia;
+  margin-top: 25px;
+  font-weight: 600;
+}
+.blue{
+  color: #316DC3;
+}
+
+.intro img{
+  height: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.green {
+  color: #427900;
+  font-weight: 800;
+}
+.mid p{
+  width: 60%;
+  text-align: justify;
+}
+
