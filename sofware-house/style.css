@@ -1,0 +1,233 @@
+ /* top-nav-social designing starts */
+#top-nav{
+    margin-top: 10px;
+    position: absolute;
+    z-index: 5;
+}
+#top-nav h6, a{
+    /* display: inline-block; */
+    color: white;
+}
+#top-nav-social{
+    float: right;
+}
+#top-nav-social a{
+    margin-right: 5px;
+}
+#top-nav h6{
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: candara;
+}
+    /* top-nav-social designing completed */
+
+
+    /* nav-bar designing starts here */
+#nav-bar-float{
+    background-color: white !important;
+    opacity: 0.8;
+    position: absolute;
+    margin-top: 50px;
+    align-content: center;
+    z-index: 5;
+}
+#nav-bar-float li a, #nav-bar-fixed li a{
+    font-family: Ubuntu Medium ;
+    font-size: 17px;
+    font-weight: 420;
+}
+
+nav img{
+    height: 70px;
+    width: 170px;
+}
+    /* nav-bar designing ends here */
+
+
+
+#carouselExampleIndicators{
+    position: relative;
+    z-index: 4;
+}
+.carousel img{
+    width: 100%;
+    height: 740px;
+}
+@media only screen and (max-width: 576px){
+    #top-nav-social, #top-nav h6{
+        float: none;
+        text-align: center;
+        font-size: 13px;
+    }
+    #top-nav-social{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        margin-top: 60px;
+    }
+    nav img{
+        height: 45px;
+        width: 132px;
+    }
+    .carousel img{
+        width: 100%;
+        height: 450px;
+    }
+    /* Intro Section */
+
+    #intro h1{
+        font-family: candara;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+
+    #services p{
+        font-size: 12px !important;
+    }
+    #services h1{
+        font-size: 35px !important;
+        font-weight: 500;
+    }
+    .vl{
+        display: none !important;
+    }
+
+}
+.vl {
+    margin-top: 11px;
+    border-left: 2px solid #512DA8;
+    height: 20px;
+  }
+.top-nav .row{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+h1{
+    font-family: candara;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+}
+#intro .purple{
+    font-size: 35px;
+    color: #512DA8;
+}
+#intro{
+    z-index: 4;
+    background-color: white !important;
+}
+.blank{
+    height: 400px;
+    width: 100%;
+}
+.footer-desktop{
+    z-index: -1 !important;
+    background-image: url(images/background-001.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-desktop .container{
+    padding-bottom: 90px;
+}
+.footer-desktop li:hover{
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.copy-right{
+    font-family: 'Courier New', Courier, monospace;
+    height: 48px;
+    text-align: center;
+    background-color: #512DA8;
+    color: white;
+    padding-top: 10px;
+}
+.copy-right a:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer-mob{
+    display: none;
+    background-image: url(images/background-001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 680px;
+}
+
+
+@media only screen and (max-width: 767px){
+    .footer-desktop{
+        display: none !important;
+    }
+    .footer-mob{
+        display: block;
+    }
+    .blank{
+        display: none;
+    }
+    .footer-mob{
+        height: 734px !important;
+    }
+    .copy-right{
+        font-size: 13px;
+    }
+    #services p{
+        font-size: 16px;
+    }
+    #services h1{
+        font-size: 42px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+            /* SERVICE.HTML CSS */
+
+
+#nav-bar-fixed{
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+#nav-bar-fixed{
+    background-color: #9575CD !important;
+}
+
+#services{
+    background-image: url(images/background-001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 310px;
+    margin-top: 50px;
+}
+
+
+        /* About US */
+#about{
+    background-image: url(images/002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    background-attachment: fixed;
+}
+
+#about .col-5{
+    background:rgba(255,255,255, 0.8);
+}
