@@ -95,7 +95,25 @@ nav img{
         display: none !important;
     }
 
+        /* ABOUT US */
+    #about{
+        height: 930px !important;
+    }
+    #about h3{
+        font-size: 40px;
+    }
+
 }
+@media only screen and (max-width: 374px){
+    #about{
+        height: 1150px !important;
+    }
+    .purple{
+        font-size: 20px !important;
+    }
+}
+
+
 .vl {
     margin-top: 11px;
     border-left: 2px solid #512DA8;
@@ -115,7 +133,7 @@ h3{
 p{
     font-family: 'Fira Sans', sans-serif;
 }
-#intro .purple{
+.purple{
     font-size: 35px;
     color: #512DA8;
 }
@@ -228,6 +246,6 @@ p{
     background-attachment: fixed;
 }
 
-#about .col-5{
-    background:rgba(255,255,255, 0.8);
+#about .bg-white{
+    opacity: 0.9 !important;
 }
